@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <string name="camera">camera</string>
+    <string name="RtlLtr">Rtl Ltr</string>
+    <string name="sms">sms</string>
+    <string name="edtMessage">Enter message</string>
+    <string name="edtPhoneNum">Enter phone number</string>
+    <string name="RTL">راست چین</string>
+    <string name="LTR">چپ چین</string>
+    <string name="txtitalic">txtitalic</string>
+</resources>
