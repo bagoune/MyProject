@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CCCCCC"
     android:orientation="vertical"
     tools:context="com.example.asus.myproject.Camera">
 
@@ -12,7 +13,7 @@
         android:layout_height="60dp"
         android:background="#EEEEEE"
         android:padding="15dp"
-        android:baselineAligned="false">
+        >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -22,7 +23,7 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:background="@drawable/ic_settings"
-                android:contentDescription="@null"/>
+                />
         </LinearLayout>
         <LinearLayout
             android:id="@+id/photo"
@@ -31,10 +32,11 @@
             android:layout_weight="1"
             android:gravity="center">
             <ImageView
+                android:id="@+id/FlashCamera"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:background="@drawable/ic_flash"
-                android:contentDescription="@null"/>
+                />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,7 +47,7 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:background="@drawable/ic_zoom"
-                android:contentDescription="@null"/>
+                />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -56,7 +58,7 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:background="@drawable/ic_mirrorcamera"
-                android:contentDescription="@null"/>
+                />
         </LinearLayout>
     </LinearLayout>
 
@@ -65,6 +67,7 @@
         android:layout_height="wrap_content"
         >
         <ImageView
+            android:id="@+id/photofilm"
             android:layout_width="match_parent"
             android:layout_height="390dp"
             android:background="@drawable/ic_mirrorcamera"/>
@@ -78,7 +81,7 @@
             android:layout_height="60dp"
             android:background="#EEEEEE"
             android:padding="15dp"
-            android:baselineAligned="false">
+            >
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -88,7 +91,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:background="@drawable/ic_settings"
-                    android:contentDescription="@null"/>
+                    />
             </LinearLayout>
 
             <LinearLayout
@@ -97,10 +100,11 @@
                 android:layout_weight="1"
                 android:gravity="center">
                 <ImageView
+                    android:id="@+id/img_getphoto"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:background="@drawable/img_getphoto"
-                    android:contentDescription="@null"/>
+                    />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -108,10 +112,11 @@
                 android:layout_weight="1"
                 android:gravity="center">
                 <ImageView
+                    android:id="@+id/imgfilm"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:background="@drawable/ic_videocam"
-                    android:contentDescription="@null"/>
+                    />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

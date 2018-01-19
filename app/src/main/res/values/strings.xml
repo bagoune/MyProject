@@ -8,4 +8,9 @@
     <string name="RTL">راست چین</string>
     <string name="LTR">چپ چین</string>
     <string name="txtitalic">txtitalic</string>
+    <string name="SendMsg">SendMsg</string>
+    <string name="ReceiveMsg">ReceiveMsg</string>
+    <string name="InboxTitle">Messagee</string>
+    <string name="ConfigMessg">Configuration messages</string>
+    <string name="SettingMessg">Settings</string>
 </resources>

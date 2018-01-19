@@ -16,9 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SendSMS" />
+        <activity android:name=".Message.SendSMS" />
         <activity android:name=".RtlLtrText" />
-        <activity android:name=".Camera"></activity>
+        <activity android:name=".Camera" />
+        <activity android:name=".Message.InboxMessageActivity" />
+        <activity android:name=".Message.MsgActivity"></activity>
     </application>
 
 </manifest>

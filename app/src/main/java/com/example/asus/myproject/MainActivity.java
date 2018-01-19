@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.asus.myproject.Message.MsgActivity;
+
 public class MainActivity extends AppCompatActivity {
 Context context;
     @Override
@@ -19,7 +21,7 @@ Context context;
         btnsms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(context, SendSMS.class));
+                startActivity(new Intent(context, MsgActivity.class));
             }
         });
 
